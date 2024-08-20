@@ -1,0 +1,30 @@
+{
+    "name": "zhangluofeng/guomi",
+    "description": "国密sm2",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "recent"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.6",
+        "mdanter/ecc": "0.4.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rtgm\\": "src"
+        },
+        "files": ["src/overwrite.php"]
+        
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://mirrors.aliyun.com/composer/"
+        }
+    }
+    
+}
